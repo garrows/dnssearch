@@ -6,7 +6,7 @@
   "preferGlobal": "true",
   "bin": {
     "dnssearch" : "dnssearch.js"
-  }
+  },
   "dependencies": {
     "request": "~2.34.0",
     "async": "~0.7.0"
@@ -27,7 +27,7 @@
     "cli"
   ],
   "author": {
-    "name" : "Glen Arrowsmith"
+    "name" : "Glen Arrowsmith",
     "email" : "glen.arrowsmith@gmail.com",
     "url" : "http://garrows.com/"
   },
