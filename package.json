@@ -1,0 +1,39 @@
+{
+  "name": "dnssearch",
+  "version": "0.1.0",
+  "description": "Node.js command line tool to quickly search available DNS names.",
+  "main": "dnssearch.js",
+  "preferGlobal": "true",
+  "bin": {
+    "dnssearch" : "dnssearch.js"
+  }
+  "dependencies": {
+    "request": "~2.34.0",
+    "async": "~0.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/garrows/dnssearch.git"
+  },
+  "keywords": [
+    "dns",
+    "search",
+    "dnssearch",
+    "tool",
+    "cli"
+  ],
+  "author": {
+    "name" : "Glen Arrowsmith"
+    "email" : "glen.arrowsmith@gmail.com",
+    "url" : "http://garrows.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garrows/dnssearch/issues"
+  },
+  "homepage": "https://github.com/garrows/dnssearch"
+}
