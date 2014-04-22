@@ -34,7 +34,7 @@ var processQueue = function (tld, callback) {
       return callback();
     } else {
       //The domain is taken.
-      console.log(domain + " is taken.\t" +  q.length() + " TLDs to check remaining. " + errored.length + " errored.");
+      console.log(domain + " is taken.\t" + q.length() + " TLDs to check remaining. " + errored.length + " errored.");
       return callback();
     }
 
@@ -54,7 +54,7 @@ request('http://data.iana.org/TLD/tlds-alpha-by-domain.txt', function (error, re
   if (!error && response.statusCode == 200) {
     var lines = body.split("\n");
 
-    q.drain = function() {
+    q.drain = function () {
       if (errored.length > 0) {
         if (lastErrorCount == errored.length) {
           console.log("Aborting errored TLDs after retrying with no change.");
@@ -77,14 +77,14 @@ request('http://data.iana.org/TLD/tlds-alpha-by-domain.txt', function (error, re
   }
 });
 
-process.on('SIGINT', function() {
+process.on('SIGINT', function () {
   q.kill();
   console.log('User interrupted process. Here is what we have so far...');
   printResults();
   process.exit();
 });
 
-var printResults = function() {
+var printResults = function () {
   console.log('The available domains are:');
   console.log(free.join("\n"));
 }
