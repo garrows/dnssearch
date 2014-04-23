@@ -1,0 +1,4 @@
+{
+  "retries": 2,
+  "tldSourceUrl": "http://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+}
