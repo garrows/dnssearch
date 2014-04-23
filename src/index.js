@@ -12,6 +12,11 @@ program
   .option('-v, --verbose', 'Verbose mode')
   .parse(process.argv);
 
+if (program.args.length == 0) {
+  program.outputHelp();
+  return;
+}
+
 main(program.args, {
   nolog: program.nolog,
   tlds: program.tlds || [],
