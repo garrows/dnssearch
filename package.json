@@ -1,6 +1,6 @@
 {
   "name": "dnssearch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js command line tool to quickly search available DNS names.",
   "main": "src/index.js",
   "preferGlobal": "true",
@@ -42,11 +42,11 @@
     "url": "http://garrows.com/"
   },
   "contributors": [
-      {
-        "name": "David Tsuji",
-        "email": "david@flodge.com",
-        "url": "https://twitter.com/davidtsuji"
-      }
+    {
+      "name": "David Tsuji",
+      "email": "david@flodge.com",
+      "url": "https://twitter.com/davidtsuji"
+    }
   ],
   "license": "MIT",
   "bugs": {
