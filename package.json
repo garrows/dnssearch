@@ -1,6 +1,6 @@
 {
   "name": "dnssearch",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Node.js command line tool to quickly search available DNS names.",
   "main": "src/index.js",
   "preferGlobal": "true",
@@ -14,7 +14,6 @@
     "progress": "^1.1.5",
     "request": "~2.34.0",
     "sc-cast": "0.0.6",
-    "underscore": "^1.6.0",
     "underscore": "^1.6.0"
   },
   "devDependencies": {
@@ -42,6 +41,13 @@
     "email": "glen.arrowsmith@gmail.com",
     "url": "http://garrows.com/"
   },
+  "contributors": [
+      {
+        "name": "David Tsuji",
+        "email": "david@flodge.com",
+        "url": "https://twitter.com/davidtsuji"
+      }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/garrows/dnssearch/issues"
